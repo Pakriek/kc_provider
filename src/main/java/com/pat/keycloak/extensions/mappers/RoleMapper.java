@@ -7,6 +7,7 @@ public class RoleMapper {
     public RoleDto mapToRoleDto(RoleModel rm) {
         return new RoleDto(
                 rm.getId(),
-                rm.getName());
+                rm.getName(),
+                rm.getAttributes());
     }
 }
